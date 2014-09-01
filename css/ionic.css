@@ -2,7 +2,7 @@
  * Copyright 2014 Drifty Co.
  * http://drifty.com/
  *
- * Ionic, v1.0.0-beta.11-nightly-421
+ * Ionic, v1.0.0-beta.11-blixt
  * A powerful HTML5 mobile app framework.
  * http://ionicframework.com/
  *
@@ -4705,19 +4705,24 @@ a.item-content {
   opacity: 0.7; }
 
 /**
- * The hidden right-side buttons that can be exposed under a list item
- * with dragging.
+ * The hidden side buttons that can be exposed under a list item with
+ * dragging.
  */
-.item-options {
+.item-options-left, .item-options-right {
   position: absolute;
   top: 0;
-  right: 0;
   z-index: 1;
   height: 100%; }
-  .item-options .button {
+  .item-options-left .button, .item-options-right .button {
     height: 100%;
     border: none;
     border-radius: 0; }
+
+.item-options-left {
+  left: 0; }
+
+.item-options-right {
+  right: 0; }
 
 /**
  * Lists

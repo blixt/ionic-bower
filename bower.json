@@ -1,14 +1,15 @@
 {
   "name": "ionic",
-  "version": "1.0.0-beta.11-nightly-421",
+  "version": "1.0.0-beta.11-blixt",
   "codename": "indium-iguana",
-  "homepage": "https://github.com/driftyco/ionic",
+  "homepage": "https://github.com/blixt/ionic",
   "authors": [
     "Max Lynch <max@drifty.com>",
     "Adam Bradley <adam@drifty.com>",
     "Ben Sperry <ben@drifty.com>"
   ],
   "description": "Advanced HTML5 hybrid mobile app development framework.",
+  "ignore": [],
   "main": [
     "css/ionic.css",
     "fonts/*",
